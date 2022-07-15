@@ -19,10 +19,10 @@ Este proyecto fue desarrollado con el objetivo de agilizar el startup mediante e
 3. Estructura del proyecto
 4. Variables de entorno
 5. ESLint
-6.a dist
-6.b Librerias usadas en el proyecto
-7. Heroku
-8. Lista de comandos
+6. dist
+7. Librerias usadas en el proyecto
+8. Heroku
+9. Lista de comandos
 
 ### 1. Instalación
 
@@ -117,11 +117,11 @@ Para que guarde los cambios en el estilo adecuado (auto fix) en settings.json (a
     },
 ```
 
-## 6.a dist
+## 6. dist
 
 Para realizar pruebas locales, manualmente se puede ejecutar el comando `npm run dev` que nos generara la carpeta dist, una vez que veamos generada dicha carpeta, ctrl+c en la consola y  volvemos a correr el comando `npm run dev`
 
-##6.b Librerias usadas en el proyecto
+## 7. Librerias usadas en el proyecto
 	- Axios
 	- Bcryptjs
 	- Cors
@@ -133,14 +133,14 @@ Para realizar pruebas locales, manualmente se puede ejecutar el comando `npm run
 	- helmet
 
 
-## 7. Heroku
+## 8. Heroku
 
 El proyecto se encuentra hosteado en heroku, dado que es un backend solo, ejecutaremos desde postman las peticiones al proyecto
 
 POSTMAN Heroku: https://www.getpostman.com/collections/acab14d46318b0052ade
 
 
-### 8. Lista de comandos
+### 9. Lista de comandos
 
 ``` sh
 npm run start
