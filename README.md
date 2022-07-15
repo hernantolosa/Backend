@@ -14,15 +14,15 @@ Este proyecto fue desarrollado con el objetivo de agilizar el startup mediante e
 
 ## Primeros pasos
 
-1. Instalación
-2. Primeros cambios
-3. Estructura del proyecto
-4. Variables de entorno
-5. ESLint
-6. dist
-7. Librerias usadas en el proyecto
-8. Heroku
-9. Lista de comandos
+1. [Instalación](#1-instalaci%C3%B3n)
+2. [Primeros cambios](#2-primeros-cambios)
+3. [Estructura del proyecto](#3-estructura-del-proyecto)
+4. [Variables de entorno](#4-variables-de-entorno)
+5. [ESLint](#5-eslint)
+6. [dist](#6-dist)
+7. [Librerias usadas en el proyecto](#7-librerias-usadas-en-el-proyecto)
+8. [Heroku](#8-heroku)
+9. [Lista de comandos](#9-lista-de-comandos)
 
 ### 1. Instalación
 
@@ -59,6 +59,7 @@ Las rutas de nuestra api se cargan desde las clases de routes, cada ruta apunta 
 
 Por convención todas las clases `.ts` están acompañadas por otro archivo con el mismo nombre pero con la extensión `.spec.ts` que son los encargados de contener los casos de unit testing si asi fuese necesario.
 
+```
 ├── src
 │   ├── app.ts
 │   ├── config
@@ -85,7 +86,7 @@ Por convención todas las clases `.ts` están acompañadas por otro archivo con 
 ├── package.json
 ├── package-lock.json
 └──  README.md
-
+```
 
 
 ### 4. Variables de entorno
