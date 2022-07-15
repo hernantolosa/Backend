@@ -7,8 +7,8 @@ Este proyecto fue desarrollado con el objetivo de agilizar el startup mediante e
 ## Instructivo para la ejecucion de la API via POSTMAN o http request
 1. Desde postman, consumir el endpoint SignUp (Donde registramos al usuario), cargar nuevos valores ya que los de prueba se encuentran registrados
 2. Consumir el segundo endpoint SignIn (Donde logeamos nuestros datos que registramos), cargar los valores respectivos en el POST y enviarlos en el body los campos email y password, este endpoint, nos generara un token de accesso que utilizaremos a continuacion.
-3. En el tercer endpoint profile, enviaremos en el header, el token generado en el punto 2 con los campos token - (el token que nos dio el servicio 2)
-4. Como respuesta obtendremos nuestros datos de perfil, indicando que accedimos exitosamente, de no ser asi, se enviara un mensaje
+3. En el tercer endpoint profile, enviaremos en el header, el token generado en el punto 2 con los campos token - (el token que nos dio el item 2).
+4. Como respuesta obtendremos nuestros datos de perfil, indicando que accedimos exitosamente, de no ser asi, se enviara un mensaje.
 5. Los endpoints de getPost y getPhotos se acceden enviando el token en el header como en el punto 3.
 6. La aplicacion en caso de enviar una ruta invalida, nos generara un json avisandonos que la URL es invalida. 
 
