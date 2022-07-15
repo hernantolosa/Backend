@@ -5,12 +5,12 @@
 Este proyecto fue desarrollado con el objetivo de agilizar el startup mediante el uso de tecnologías y patrones de diseño elegidos por su compatibilidad, estabilidad y rendimiento. A su vez, el objetivo de esta API es la creacion de un usuario que registra a traves de un POST a MongoDB Cloud, registrandolo, una vez registrado, a la hora de iniciar sesion, se le generara un token, que de ser valido, lo podremos chequear con un get profile.
 
 ## Instructivo para la ejecucion de la API via POSTMAN o http request
-1. Desde postman, consumir el servicio SignUp (Donde registramos al usuario), cargar nuevos valores ya que los de prueba se encuentran registrados
-2. Consumir el segundo servicio SignIn (Donde logeamos nuestros datos que registramos), cargar los valores respectivos en el POST y enviarlos en el body los campos email y password, este servicio, nos generara un token de accesso que utilizaremos a continuacion.
-3. En el tercero servicio profile, enviaremos en el header, el token generado en el punto 2 con los campos token - (el token que nos dio el servicio 2)
+1. Desde postman, consumir el endpoint SignUp (Donde registramos al usuario), cargar nuevos valores ya que los de prueba se encuentran registrados
+2. Consumir el segundo endpoint SignIn (Donde logeamos nuestros datos que registramos), cargar los valores respectivos en el POST y enviarlos en el body los campos email y password, este endpoint, nos generara un token de accesso que utilizaremos a continuacion.
+3. En el tercer endpoint profile, enviaremos en el header, el token generado en el punto 2 con los campos token - (el token que nos dio el servicio 2)
 4. Como respuesta obtendremos nuestros datos de perfil, indicando que accedimos exitosamente, de no ser asi, se enviara un mensaje
-5. Los servicios de getPost y getPhotos se acceden enviando el token en el header como en el punto 3.
-6. La aplicacion en caso de enviar una ruta invalida, nos generara un json global diciendo que la URL es invalida. 
+5. Los endpoints de getPost y getPhotos se acceden enviando el token en el header como en el punto 3.
+6. La aplicacion en caso de enviar una ruta invalida, nos generara un json avisandonos que la URL es invalida. 
 
 ## Primeros pasos
 
