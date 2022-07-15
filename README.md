@@ -131,6 +131,7 @@ Para realizar pruebas locales, manualmente se puede ejecutar el comando `npm run
 	- mongoose
 	- fast-glob
 	- helmet
+	- Joi
 
 
 ## 8. Heroku
