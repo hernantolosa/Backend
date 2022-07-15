@@ -59,24 +59,33 @@ Las rutas de nuestra api se cargan desde las clases de routes, cada ruta apunta 
 
 Por convención todas las clases `.ts` están acompañadas por otro archivo con el mismo nombre pero con la extensión `.spec.ts` que son los encargados de contener los casos de unit testing si asi fuese necesario.
 
-		.env
-		app.ts
-		[routes]
-    		example-routes.ts
-    		example-routes.spec.ts
-		[controller]
-   		 	example-controller.ts
-    		example-controller.spec.ts
-		[service]
-    		example-service.ts
-    		example-service.spec.ts
-		[config]
-    		example-config.ts
-		[libs]
-    		joi.ts
-    		verify-token.ts
-		[models]
-  			user.ts
+├── src
+│   ├── app.ts
+│   ├── config
+│   │   ├── database.ts
+│   │   ├── errorhandler.ts
+│   │   ├── proxy.ts
+│   │   ├── routes.ts
+│   │   └── security.ts
+│   ├── controller
+│   │   ├── auth.ts
+│   │   └── proxy-controller.ts
+│   ├── libs
+│   │   ├── joi.ts
+│   │   └── verify-token.ts
+│   ├── models
+│   │   └── user.ts
+│   ├── routes
+│   │   └── proxy-routes.ts
+│   └── service
+│       └── api-service.ts
+├── tsconfig.json
+├── types.d.ts
+├── .env
+├── package.json
+├── package-lock.json
+└──  README.md
+
 
 
 ### 4. Variables de entorno
